@@ -27,3 +27,4 @@ for link in artikel:
 
     print(judul.text, '\n\n'+photo.find('img')['src'],'\n'+paragraf,'\n',link_yt)
     print('-'*10)
+ya

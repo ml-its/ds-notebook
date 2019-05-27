@@ -1,7 +1,6 @@
-Kolom: 
-1. Judul 
-2. Tanggal 
-3. Paragraf 
-4. Gambar
-5. Link Youtube
-4 Mei 2019 - 10 Mei 2019
+# week 4
+`kompas.py`  
+buat dataset tanggal 26, dari halaman 1-15
+
+`week4.ipnyb` 
+exploring the *abyss*

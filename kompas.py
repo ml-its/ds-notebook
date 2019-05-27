@@ -28,6 +28,8 @@ for i in range(1,16):
         print(tit.text)
         print('-'*10)
 
-df = pd.DataFrame(hasil)
-df.to_csv('kompas.csv')
-print(hasil)
+
+if __name__ == "__main__":
+    df = pd.DataFrame(hasil)
+    df.to_csv('kompas.csv')
+    print(hasil)

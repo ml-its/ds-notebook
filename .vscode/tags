@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+cari_mobil.py	../cari_mobil.py	1;"	kind:file	line:1
+df	../cari_mobil.py	/^df = pd.DataFrame(hasil)$/;"	kind:variable	line:51
+hasil	../cari_mobil.py	/^hasil = []$/;"	kind:variable	line:15
+item	../cari_mobil.py	/^        item = {}$/;"	kind:variable	line:35
+kumpulan_link	../cari_mobil.py	/^kumpulan_link=[]$/;"	kind:variable	line:14
+kumpulan_page	../cari_mobil.py	/^kumpulan_page = soup.find_all('span',class_='item inline-block')$/;"	kind:variable	line:10
+page_terakhir	../cari_mobil.py	/^page_terakhir = kumpulan_page[-1].a['href'].split('=')$/;"	kind:variable	line:11
+page_terakhir	../cari_mobil.py	/^page_terakhir = page_terakhir[-1]$/;"	kind:variable	line:12
+req	../cari_mobil.py	/^req = requests.get(link.format(1))$/;"	kind:variable	line:8
+req_mobil	../cari_mobil.py	/^    req_mobil = requests.get(link)$/;"	kind:variable	line:26
+seluruh_harga_page	../cari_mobil.py	/^    seluruh_harga_page = soup_mobil.find_all('strong', class_='c000')$/;"	kind:variable	line:29
+seluruh_judul_page	../cari_mobil.py	/^    seluruh_judul_page = soup_mobil.find_all('a', {'class':'marginright5 link linkWithHash detailsLink'})$/;"	kind:variable	line:28
+seluruh_kota_page	../cari_mobil.py	/^    seluruh_kota_page = soup_mobil.find_all('p', class_='color-9 lheight14 margintop3')$/;"	kind:variable	line:30
+seluruh_tanggal_page	../cari_mobil.py	/^    seluruh_tanggal_page = soup_mobil.find_all('td',class_='rel tcenter')$/;"	kind:variable	line:31
+soup	../cari_mobil.py	/^soup = BeautifulSoup(req.text,'lxml')$/;"	kind:variable	line:9
+soup_mobil	../cari_mobil.py	/^    soup_mobil = BeautifulSoup(req_mobil.text, 'lxml')$/;"	kind:variable	line:27

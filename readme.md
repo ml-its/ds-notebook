@@ -1,5 +1,3 @@
-# Tugas 1
-
 Kolom: 
 1. Judul 
 2. Tanggal 
